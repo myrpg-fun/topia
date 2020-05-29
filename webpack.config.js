@@ -16,7 +16,7 @@ if (dev){
         output: {
             filename: '[name].js',
             path: path.resolve(__dirname, 'dist/build'),
-            publicPath: "/build/"
+            publicPath: "/topia/build/"
         },
         resolve: {
             modules: [path.resolve(__dirname, 'libs'), 'node_modules'],
