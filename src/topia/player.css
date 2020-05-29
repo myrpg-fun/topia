@@ -1,0 +1,147 @@
+.portraits{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -100px;
+    right: 0px;
+    z-index: 10;
+}
+
+.player{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: white;
+    box-shadow: 0px 0px 20px blue;
+    width: 160px;
+    height: 160px;
+    transition: box-shadow 0.3s, margin 0.3s, width 0.3s, height 0.3s, left 0.5s, top 0.5s, transform 0.3s;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.rounded{
+    border-radius: 1000px;
+    overflow: hidden;
+}
+
+.player img{
+    width: 100%;
+    height: 100%;
+}
+
+.player.fadeout{
+    transform: scale(0);
+}
+
+.player .volume{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 38px;
+    height: 38px;
+    background: #e4e5ea;
+    padding: 5px;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    z-index: 20;
+}
+
+.player .menu{
+    position: absolute;
+    top: 122px;
+    left: 0px;
+    right: 0px;
+    background: transparent;
+    z-index: 15;
+    transition: box-shadow 0.3s, margin 0.3s, width 0.3s, height 0.3s, left 0.5s, top 0.5s, transform 0.3s;
+}
+
+.player .menu.fadeout{
+    transform: scale(0) translateY(-100%);
+}
+
+.menu .menu-item{
+    background: #b9bdcc;
+    color: #5d6477;
+    padding: 8px 14px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 1000px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.menu .menu-item:hover{
+    background: #cacdd8;
+}
+
+.menu .menu-item .volume-slider{
+    position: relative;
+    margin-left: 32px;
+    margin-right: 0px;
+    border: 1px solid #f2f2f5;
+    background: #f2f2f5;
+    border-radius: 1000px;
+    height: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.menu .menu-item .volume-slider .slider{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;
+    transition: width 0.5s;
+    background: #2466f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2466f2 0%, #1248ed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #2466f2 0%,#1248ed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #2466f2 0%,#1248ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2466f2', endColorstr='#1248ed',GradientType=0 ); /* IE6-9 */
+    border-radius: 1000px;
+}
+
+.center-position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px 40px;
+    border-radius: 20px;
+    background: #ebecf0;
+    width: 600px;
+}
+
+.chat-header{
+    margin-left: 70px;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.chat-image{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+}
+
+.chat-close{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chat-image img{
+    width: 100%;
+    height: 100%;
+}

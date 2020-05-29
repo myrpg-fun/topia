@@ -1,0 +1,33 @@
+.messages{
+    overflow: auto;
+    max-height: 350px;
+}
+
+.message-item{
+    background: #f4f4f7;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.mi-color{
+    flex-basis: 20px;
+    flex-shrink: 0;
+    background: #cd8ad1;
+    height: 100%;
+}
+
+.mi-name{
+    flex-basis: 120px;
+    flex-shrink: 0;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.mi-message{
+    flex-shrink: 1;
+    padding: 0px 10px;
+}
+

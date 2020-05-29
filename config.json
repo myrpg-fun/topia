@@ -1,0 +1,9 @@
+{
+    "host": "localhost",
+    "port": 3000,
+    "mongodb": "mongodb://localhost:27017/WERDOdb",
+    "dbname": "WERDOdb",
+    "login": "admin",
+    "password": "12345",
+    "sslPath": "./cert"
+}
