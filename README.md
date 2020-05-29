@@ -9,9 +9,9 @@ Topia
 * 02:00 Thinking about arhitecture
 * 02:20 Start making first player
 * 02:50 Start making player keyboard controls
-* 03:30 Start making windows
+* 03:30 Start making video chat player windows
 * 04:00 Make a rest
-* 05:00 I try to think of a circle player structure
+* 05:00 I try to think of a video chat UI structure
 * 05:30 Adding animations to show players
 * 06:00 Add menu to players
 * 06:30 Rest
