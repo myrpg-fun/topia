@@ -8,24 +8,24 @@ class MyApp extends MainApp{
             title: 'Topia.io - loading'
         });
         
-        Router.exactMatch([], () => 
+//        Router.exactMatch([], () => 
             import('./topia/app').then(
                 app => {
                     this.title = 'Topia.io';
                     this.app = app.default.createView();
                 }
             )
-        );
+//        );
 
         //404 error
-        Router.noMatch(() => 
+/*        Router.noMatch(() => 
             import('./404/index').then(
                 app => {
                     this.title = 'Topia.io - Page not found';
                     this.app = app.default.createView();
                 }
             )
-        );
+        );*/
     }
 };
 
